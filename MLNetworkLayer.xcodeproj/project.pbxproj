@@ -8,8 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0FE15153267D20F4006EDC66 /* MLNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE15149267D20F4006EDC66 /* MLNetworkLayer.framework */; };
-		0FE15158267D20F4006EDC66 /* MLNetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE15157267D20F4006EDC66 /* MLNetworkLayerTests.swift */; };
-		0FE1515A267D20F4006EDC66 /* MLNetworkLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE1514C267D20F4006EDC66 /* MLNetworkLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FE15165267D22B2006EDC66 /* MLNetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE15164267D22B2006EDC66 /* MLNetworkProtocol.swift */; };
+		0FE15168267D24E9006EDC66 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE15167267D24E9006EDC66 /* APIError.swift */; };
+		0FE1516A267D253B006EDC66 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE15169267D253B006EDC66 /* RequestProtocol.swift */; };
+		0FE1516C267D258D006EDC66 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1516B267D258D006EDC66 /* HTTPMethod.swift */; };
+		0FE1516E267D2990006EDC66 /* RequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1516D267D2990006EDC66 /* RequestParameters.swift */; };
+		0FE15170267D2A13006EDC66 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1516F267D2A13006EDC66 /* RequestBuilder.swift */; };
+		0FE15173267D2B16006EDC66 /* DefaultRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE15172267D2B16006EDC66 /* DefaultRequestBuilder.swift */; };
+		0FE15175267D309A006EDC66 /* DefaultRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE15174267D309A006EDC66 /* DefaultRequestBuilderTests.swift */; };
+		0FE1517A267D31B5006EDC66 /* SimpleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE15179267D31B5006EDC66 /* SimpleRequest.swift */; };
+		0FE1517C267EA51A006EDC66 /* APIErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1517B267EA51A006EDC66 /* APIErrorTests.swift */; };
+		0FE1517F267EAFF1006EDC66 /* MLNetworkProtocolSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1517E267EAFF1006EDC66 /* MLNetworkProtocolSpy.swift */; };
+		0FE15181267F71AF006EDC66 /* MLNetworkProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE15180267F71AF006EDC66 /* MLNetworkProtocolTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +34,21 @@
 
 /* Begin PBXFileReference section */
 		0FE15149267D20F4006EDC66 /* MLNetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLNetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FE1514C267D20F4006EDC66 /* MLNetworkLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLNetworkLayer.h; sourceTree = "<group>"; };
 		0FE1514D267D20F4006EDC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FE15152267D20F4006EDC66 /* MLNetworkLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLNetworkLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FE15157267D20F4006EDC66 /* MLNetworkLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLNetworkLayerTests.swift; sourceTree = "<group>"; };
 		0FE15159267D20F4006EDC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FE15164267D22B2006EDC66 /* MLNetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLNetworkProtocol.swift; sourceTree = "<group>"; };
+		0FE15167267D24E9006EDC66 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		0FE15169267D253B006EDC66 /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		0FE1516B267D258D006EDC66 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		0FE1516D267D2990006EDC66 /* RequestParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParameters.swift; sourceTree = "<group>"; };
+		0FE1516F267D2A13006EDC66 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		0FE15172267D2B16006EDC66 /* DefaultRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRequestBuilder.swift; sourceTree = "<group>"; };
+		0FE15174267D309A006EDC66 /* DefaultRequestBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRequestBuilderTests.swift; sourceTree = "<group>"; };
+		0FE15179267D31B5006EDC66 /* SimpleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRequest.swift; sourceTree = "<group>"; };
+		0FE1517B267EA51A006EDC66 /* APIErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorTests.swift; sourceTree = "<group>"; };
+		0FE1517E267EAFF1006EDC66 /* MLNetworkProtocolSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLNetworkProtocolSpy.swift; sourceTree = "<group>"; };
+		0FE15180267F71AF006EDC66 /* MLNetworkProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLNetworkProtocolTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +91,9 @@
 		0FE1514B267D20F4006EDC66 /* MLNetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
-				0FE1514C267D20F4006EDC66 /* MLNetworkLayer.h */,
+				0FE15171267D2B08006EDC66 /* Wrappers */,
+				0FE15166267D24E0006EDC66 /* Commons */,
+				0FE15163267D228F006EDC66 /* Protocols */,
 				0FE1514D267D20F4006EDC66 /* Info.plist */,
 			);
 			path = MLNetworkLayer;
@@ -80,10 +102,58 @@
 		0FE15156267D20F4006EDC66 /* MLNetworkLayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				0FE15157267D20F4006EDC66 /* MLNetworkLayerTests.swift */,
+				0FE1517D267EAFE4006EDC66 /* Spies */,
+				0FE15176267D30E9006EDC66 /* Mocks */,
 				0FE15159267D20F4006EDC66 /* Info.plist */,
+				0FE15174267D309A006EDC66 /* DefaultRequestBuilderTests.swift */,
+				0FE1517B267EA51A006EDC66 /* APIErrorTests.swift */,
+				0FE15180267F71AF006EDC66 /* MLNetworkProtocolTests.swift */,
 			);
 			path = MLNetworkLayerTests;
+			sourceTree = "<group>";
+		};
+		0FE15163267D228F006EDC66 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0FE15164267D22B2006EDC66 /* MLNetworkProtocol.swift */,
+				0FE15169267D253B006EDC66 /* RequestProtocol.swift */,
+				0FE1516F267D2A13006EDC66 /* RequestBuilder.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0FE15166267D24E0006EDC66 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				0FE15167267D24E9006EDC66 /* APIError.swift */,
+				0FE1516B267D258D006EDC66 /* HTTPMethod.swift */,
+				0FE1516D267D2990006EDC66 /* RequestParameters.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		0FE15171267D2B08006EDC66 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				0FE15172267D2B16006EDC66 /* DefaultRequestBuilder.swift */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		0FE15176267D30E9006EDC66 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				0FE15179267D31B5006EDC66 /* SimpleRequest.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		0FE1517D267EAFE4006EDC66 /* Spies */ = {
+			isa = PBXGroup;
+			children = (
+				0FE1517E267EAFF1006EDC66 /* MLNetworkProtocolSpy.swift */,
+			);
+			path = Spies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +163,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE1515A267D20F4006EDC66 /* MLNetworkLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +216,11 @@
 				TargetAttributes = {
 					0FE15148267D20F4006EDC66 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					0FE15151267D20F4006EDC66 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -194,6 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE1516C267D258D006EDC66 /* HTTPMethod.swift in Sources */,
+				0FE15165267D22B2006EDC66 /* MLNetworkProtocol.swift in Sources */,
+				0FE1516A267D253B006EDC66 /* RequestProtocol.swift in Sources */,
+				0FE15173267D2B16006EDC66 /* DefaultRequestBuilder.swift in Sources */,
+				0FE15170267D2A13006EDC66 /* RequestBuilder.swift in Sources */,
+				0FE1516E267D2990006EDC66 /* RequestParameters.swift in Sources */,
+				0FE15168267D24E9006EDC66 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE15158267D20F4006EDC66 /* MLNetworkLayerTests.swift in Sources */,
+				0FE15181267F71AF006EDC66 /* MLNetworkProtocolTests.swift in Sources */,
+				0FE1517C267EA51A006EDC66 /* APIErrorTests.swift in Sources */,
+				0FE15175267D309A006EDC66 /* DefaultRequestBuilderTests.swift in Sources */,
+				0FE1517F267EAFF1006EDC66 /* MLNetworkProtocolSpy.swift in Sources */,
+				0FE1517A267D31B5006EDC66 /* SimpleRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +423,8 @@
 		0FE1515E267D20F4006EDC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9QY8PWG4FZ;
@@ -349,6 +433,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MLNetworkLayer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +442,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maclacerda.MLNetworkLayer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +452,8 @@
 		0FE1515F267D20F4006EDC66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9QY8PWG4FZ;
@@ -373,6 +462,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MLNetworkLayer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maclacerda.MLNetworkLayer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -389,6 +480,8 @@
 		0FE15161267D20F4006EDC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9QY8PWG4FZ;
 				INFOPLIST_FILE = MLNetworkLayerTests/Info.plist;
@@ -399,6 +492,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.maclacerda.MLNetworkLayerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -407,6 +501,8 @@
 		0FE15162267D20F4006EDC66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9QY8PWG4FZ;
 				INFOPLIST_FILE = MLNetworkLayerTests/Info.plist;
