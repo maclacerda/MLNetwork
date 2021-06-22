@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "MLNetwork",
-            targets: ["MLNetworkLayer"]
+            targets: ["MLNetwork"]
         )
     ],
     targets: [
