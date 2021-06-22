@@ -1,0 +1,4 @@
+framework module MLNetworkLayer {
+  header "MLNetworkLayer-Swift.h"
+  requires objc
+}
