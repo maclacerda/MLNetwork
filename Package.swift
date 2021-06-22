@@ -14,7 +14,7 @@ let package = Package(
         targets: [
             .binaryTarget(
                 name: "MLNetwork",
-                path: "./binary-framework/MLNetwork.xcframework"
+                path: "../binary-framework/MLNetwork.xcframework"
             )
         ]
     ]
