@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "MLNetwork",
     platforms: [
-        .iOS(v.13)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -14,7 +14,7 @@ let package = Package(
         targets: [
             .binaryTarget(
                 name: "MLNetwork",
-                path: "../binary-framework/MLNetwork.xcframework"
+                path: "./binary-framework/MLNetwork.xcframework"
             )
         ]
     ]
