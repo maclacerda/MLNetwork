@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "MLNetwork",
             url: "https://github.com/maclacerda/MLNetwork/raw/master/binary-framework/MLNetwork.xcframework.zip",
-            checksum: "7c02bcd0075bcc0ab1e5ebe0b9d41017bcfe45b4b34b3a6b4f4a3dcad7aef045"
+            checksum: "06b1b7f294ec1d3e09fb2f84944cfcb5541c6a13302158c7cd40b868608ebb8a"
         )
     ]
 )
